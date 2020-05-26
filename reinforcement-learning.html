@@ -12,7 +12,7 @@
 
 <p> Reference book - Reinforcement Learning, An Introduction Second Edition, Richard S. Sutton and Andrew G. Barto
 
-<p>Reinforcement learning is learning what to do - how to map situations to actions- so as to maximize a numeral reward signal.
+<p>Reinforcement learning is learning what to do i.e  how to map situations to actions, so as to maximize a numeral reward signal.
     Main sub-elements of a reinforcement learning system are: </p>
 <ul>
     <li>Policy - this defines how an agent behaves at a given time. Mapping from perceived states of the environment to actions to be taken in those states.</li>
@@ -26,36 +26,36 @@
 <p>○ Rely heavily on the concept of state i.e a signal conveying to the agent some sense of 'how the environment is' at a particular time. The official definition of state in RL is the framework of Markov decision process.
     ○ Construction, changing or learning the state signal is not considered in the book. The goal is to decide what action to take as a function of whatever state signal is available. Let me note that I was mostly focused on this part for the past month unintentionally. I was confusing the state and the reward signal. </p>
 
-<h4>RL Problem Formulated as a reinforcement learning problem</h4>
+<!--<h4>RL Problem Formulated as a reinforcement learning problem</h4>-->
 
-<p>Assumptions made </p>
+<!--<p>Assumptions made </p>-->
 
-<p>Health of the agroecosystem is a proxy for the yield therefore maximizing the health maximizes the yield. A Simple Toy Game has been implemented for an Agroecosystem that functions as follows:
-    § Actions to be performed are; Planting, Harvesting, Watering. Actions taken in the Agroecosystem change its state i.e. health initially defined as the sum of health indices of all the crops normalized to a scale of 1-5 (1 is bad 5 is really good)</p>
+<!--<p>Health of the agroecosystem is a proxy for the yield therefore maximizing the health maximizes the yield. A Simple Toy Game has been implemented for an Agroecosystem that functions as follows:-->
+    <!--§ Actions to be performed are; Planting, Harvesting, Watering. Actions taken in the Agroecosystem change its state i.e. health initially defined as the sum of health indices of all the crops normalized to a scale of 1-5 (1 is bad 5 is really good)</p>-->
 
-<h4>State space</h4>
-<p> We assume the AgroGame Agent is the only agent in the agroecosystem. The agroecosystem is divided into n x m cells, with 2 crops, therefore the possible arrangement of crops is n x m x 2. Each of the crop can have 5 possible health states 1-5. Therefore the agroecosystem environment has nxmx2x5 possible states.</p>
+<!--<h4>State space</h4>-->
+<!--<p> We assume the AgroGame Agent is the only agent in the agroecosystem. The agroecosystem is divided into n x m cells, with 2 crops, therefore the possible arrangement of crops is n x m x 2. Each of the crop can have 5 possible health states 1-5. Therefore the agroecosystem environment has nxmx2x5 possible states.</p>-->
 
-<h4>Action space </h4>
+<!--<h4>Action space </h4>-->
 
-<p>The actions have constant discrete values that could be performed. </p>
-<ul>
-    <li>Planting
-    </li>
-    <li>Harvesting</li>
-    <li>Watering</li>
-</ul>
+<!--<p>The actions have constant discrete values that could be performed. </p>-->
+<!--<ul>-->
+    <!--<li>Planting-->
+    <!--</li>-->
+    <!--<li>Harvesting</li>-->
+    <!--<li>Watering</li>-->
+<!--</ul>-->
 
-<h4> Reward function definition: </h4>
-<li>○ +1 if the health if 5 and -10 if the health is 1</li>
-<li>○ Receive a high reward whenever the health is 5 </li>
-<li>○ Penalized if the health comes back as 1 </li>
-<li>○ 'slight' penalty if the health returned is less than 3 </li>
+<!--<h4> Reward function definition: </h4>-->
+<!--<li>○ +1 if the health if 5 and -10 if the health is 1</li>-->
+<!--<li>○ Receive a high reward whenever the health is 5 </li>-->
+<!--<li>○ Penalized if the health comes back as 1 </li>-->
+<!--<li>○ 'slight' penalty if the health returned is less than 3 </li>-->
 
 
-<p>The goal is to come up with a function that tells the agent which actions to take at a given state for maximum health. </p>
+<!--<p>The goal is to come up with a function that tells the agent which actions to take at a given state for maximum health. </p>-->
 
-<p>Simple RL algorithm for the agroecosystem</p>
+<!--<p>Simple RL algorithm for the agroecosystem</p>-->
 
 <p> What I have explored so far
 <span>1. Tic Tac Toe
