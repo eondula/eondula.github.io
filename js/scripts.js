@@ -29,13 +29,49 @@ document.addEventListener("DOMContentLoaded", function() {
                 break;
 
             case 'news':
-                container.innerHTML = "<p>This is the news content...</p>";
+                container.innerHTML = `
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">Nov 2023</span>
+                        <p>Invited Panelist for Women of Color in STEM at Mt. San Antonio College</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">May 2023</span>
+                        <p>STEM Bytes Talk</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">Oct 2021</span>
+                        <p>Abstract paper accepted at <a href="https://ojs.aaai.org/index.php/AAAI/article/download/21649/21398" target="_blank">Association for the advancement of Artificial Intelligence</a></p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">May 2021</span>
+                        <p>A feature on going from intern, to IBMer to PhD. <a href="https://ibm-research.medium.com/from-interns-to-ibmers-to-phds-a-unique-approach-to-talent-in-africa-abfb071cb90f" target="_blank">Read more</a></p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">Aug 2020</span>
+                        <p>I joined the Autonomous Networks Research Group</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">Nov 2018</span>
+                        <p>Guest contributor, African Leadership University where I shared my work on Applications of IoT in Emerging Markets.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">Sep 2018</span>
+                        <p>Recognized as an Outstanding Alumni <a href="https://tukenya.ac.ke/sites/default/files/downloads/tunewsdec2018.pdf" target="_blank">Details</a></p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">Aug 2018</span>
+                        <p>Moved to Los Angeles, CA to start my Ph.D journey in Computer Science at University of Southern California. I received the Annenberg Fellowship.</p>
+                    </div>
+                </div>
+            `;
                 break;
             case 'thoughts':
-                container.innerHTML = "<p>This is the news content...</p>";
+                container.innerHTML = document.getElementById('thoughts-list').innerHTML;
                 break;
+
             case 'tools':
-                container.innerHTML = "<p>This is the news content...</p>";
+                container.innerHTML = "<h>Check out github (personal and ANRG)</h>";
                 break;
             default:
                 container.innerHTML = "<p>Select a content type.</p>";
@@ -64,3 +100,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 });
+
+function shareToTwitter() {
+    const title = document.getElementById('modalTitle').innerText;
+    const description = document.getElementById('modalDescription').innerText;
+    const truncatedDescription = description.split(" ").slice(0, 50).join(" ");
+    const contentToShare = `${title} - ${truncatedDescription}... Read More: [https://eondula.github.io/#]`;
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(contentToShare)}`;
+    window.open(url, '_blank');
+}
+
+
+

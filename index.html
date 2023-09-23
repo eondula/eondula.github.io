@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Your Name - Personal Website</title>
+    <title>Elizabeth Akinyi Ondula</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -41,17 +41,17 @@
 
     <!-- Menu -->
     <div class="row mb-4" style="padding-top: 10% ">
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-6 col-md-3 d-flex justify-content-center">
             <a href="#" id="bioBtn" class="btn btn-outline-primary rounded-pill w-100">Bio</a>
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-6 col-md-3 d-flex justify-content-center">
             <a href="#" id="newsBtn" class="btn btn-outline-primary rounded-pill w-100">News</a>
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-6 col-md-3 d-flex justify-content-center">
             <a href="#" id="thoughtsBtn" class="btn btn-outline-primary rounded-pill w-100">Thoughts</a>
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
-            <a href="#" id="projBtn" class="btn btn-outline-primary rounded-pill w-100">Tools</a>
+        <div class="col-6 col-md-3 d-flex justify-content-center">
+            <a href="https://github.com/ANRGUSC/SafeCampus-RL" id="projBtn" class="btn btn-outline-primary rounded-pill w-100">Tools</a>
         </div>
     </div>
 
@@ -62,6 +62,61 @@
         </div>
     </div>
 </div>
+<!-- Thoughts List -->
+<div id="thoughts-list" style="display: none;">
+    <div class="thought-entry">
+        <h4>
+             <b>Sustain, Invest, Stay, Cherish</b>
+        </h4>
+        <p><strong>Entry #001</strong> | <strong>Date: 23rd September 2023</strong></p>
+        <p>
+            “Sustain the friendships you have made even after your studies. Invest in them, stay close to them, and cherish them”
+            <a href="#" data-bs-toggle="modal" data-bs-target="#thoughtModal" style="text-decoration: underline; color: #760ADB;">Read More</a>
+            &nbsp;|&nbsp;
+            <a href="#" onclick="shareToTwitter();" style="color: #760ADB;"><i class="fas fa-share-alt"></i></a>
+        </p>
+    </div>
+    <!-- ... more entries as needed ... -->
+</div>
+
+
+<!-- Modal for Thought Entry 1 -->
+<div class="modal" id="thoughtModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 id="modalTitle" class="modal-title">Sustain, Invest, Stay, Cherish</h5>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription">
+                    I recently stumbled upon these words from my past, words
+                    I had shared upon being honored as an outstanding alumnus from the class of 2014.
+                    For those about to embark on their higher education journey—be it in a university, college,
+                    polytechnic, or community college—remember this: the leap from high school introduces you to
+                    ‘knowns’ and ‘unknowns’. I was fortunate to bond with amazing individuals during this phase,
+                    collaborating on studies, initiating projects, exploring varied career avenues, and
+                    experiencing moments that I hold dear to date.
+                    These relationships not only enriched my life with invaluable lessons but also granted me
+                    personal growth and the pure joy of being genuinely appreciated.
+                    There's so much more I could share on this, but I'll reserve those stories for another time.
+                    <!-- rest of the content -->
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="mt-5 text-center">
+    <p>
+        <a href="https://lillyclark.github.io/" target="_blank">Layout inspiration</a>.<br>
+        © 2023 Elizabeth Akinyi Ondula. All rights reserved.
+    </p>
+</footer>
+
 
 <!-- Bootstrap JS (optional) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>

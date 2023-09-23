@@ -111,6 +111,62 @@ a:hover, a:focus {
     font-family: 'Inconsolata', monospace;
     font-weight: 200; /* This sets the font-weight to the light version */
 }
+.timeline {
+    position: relative;
+}
+
+.timeline-item {
+    display: flex;  /* Use flexbox for layout */
+    align-items: start;  /* Align items to the top */
+    margin-bottom: 30px;  /* Spacing between items */
+}
+
+.timeline-item .date {
+    flex-shrink: 0;  /* Prevent date from shrinking */
+    width: 100px;  /* Width for the date */
+    font-weight: bold;
+    color: #555;  /* A gray color that complements the primary theme */
+    text-align: right;  /* Right-align the date */
+    margin-right: 20px;  /* Spacing between date and content */
+}
+
+.timeline-item p {
+    flex-grow: 1;  /* Allow content to take remaining space */
+    margin: 0;
+    padding-left: 10px;
+    line-height: 1.5;  /* Line height for readability */
+}
+
+/* Remove underline from focused or active buttons */
+.btn:focus, .btn:active {
+    text-decoration: none;
+    box-shadow: none;  /* Optional: To remove the default focus box-shadow */
+}
+
+/* Add bold text for active buttons */
+.btn:active {
+    font-weight: bold;
+}
+/* Remove underline from hovered buttons */
+.btn:hover {
+    text-decoration: none;
+}
+#thoughts-list h3 {
+    color: #760ADB; /* Primary color */
+    margin-bottom: 20px;
+}
+
+.thought-entry h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.thought-entry p {
+    margin-bottom: 20px;
+}
+
+
 
 
 
