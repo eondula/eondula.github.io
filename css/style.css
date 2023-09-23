@@ -1,0 +1,116 @@
+/* Comprehensive Custom Primary Color Overrides */
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+
+/* Primary and Secondary Colors */
+:root {
+    --primary-color: #760ADB;
+    --primary-hover-color: #5F08A9;
+    --secondary-color: #B19CD9;
+    --secondary-hover-color: #967BB6;
+}
+
+/* Buttons */
+body .btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+body .btn-primary:hover,
+body .btn-primary:focus,
+body .btn-primary:active,
+body .btn-primary.active {
+    font-weight: bold !important; /* Make the font bold on hover/focus/active states */
+}
+
+body .btn-outline-primary {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+body .btn-outline-primary:hover,
+body .btn-outline-primary:focus,
+body .btn-outline-primary:active,
+body .btn-outline-primary.active {
+    font-weight: bold !important; /* Make the font bold on hover/focus/active states */
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+
+/* Alerts */
+body .alert-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-hover-color) !important;
+    color: #fff !important;
+}
+
+/* Badges */
+body .badge-primary {
+    background-color: var(--primary-color) !important;
+}
+
+/* Links with .text-primary class */
+body .text-primary {
+    color: var(--primary-color) !important;
+}
+
+body a.text-primary:hover,
+body a.text-primary:focus {
+    color: var(--primary-hover-color) !important;
+}
+
+/* Nav links */
+body .nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+/* Borders */
+body .border-primary {
+    border-color: var(--primary-color) !important;
+}
+
+/* Backgrounds */
+body .bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+/* Font Awesome Icons Custom Colors */
+.fa, .fab, .fas, .far {
+    color: var(--primary-color) !important;
+}
+
+.fa:hover, .fab:hover, .fas:hover, .far:hover {
+    color: var(--primary-hover-color) !important; /* Slightly darker shade for hover state */
+}
+h5 {
+    color: #A9A9B3 !important;
+}
+
+h5 a {
+    color: var(--primary-color) !important;
+    text-decoration: none; /* Optional: removes the underline from the link */
+}
+
+h5 a:hover {
+    text-decoration: underline; /* Optional: underlines the link on hover for better clarity */
+}
+
+a {
+    color: #760ADB; /* Primary color for normal state */
+    text-decoration: none; /* Optional: to remove the underline */
+}
+
+a:hover, a:focus {
+    color: #55408B; /* Slightly darker shade for hover/focus state */
+    text-decoration: underline; /* Optional: to add an underline on hover/focus */
+}
+#contentContainer p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200; /* This sets the font-weight to the light version */
+}
+
+
+
