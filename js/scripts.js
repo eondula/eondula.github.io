@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             case 'bio':
                 container.innerHTML = `
             <p>
-            Elizabeth is a computer science student at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>. She is a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, with Prof. Bhaskar Krishnamachari as her faculty advisor and mentor. Before joining USC, she worked with IBM Research in Africa, Brave Venture Labs, and iHub Nairobi. She received her Bachelor of Engineering in Electrical and Electronics Engineering from the <a href="https://www.tukenya.ac.ke/" target="_blank">Technical University of Kenya</a>. 
+            Elizabeth is a student of computer science at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>. She is a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, with Prof. Bhaskar Krishnamachari as her faculty advisor and mentor. Before joining USC, she worked with IBM Research in Africa, Brave Venture Labs, and iHub Nairobi. She received her Bachelor of Engineering in Electrical and Electronics Engineering from the <a href="https://www.tukenya.ac.ke/" target="_blank">Technical University of Kenya</a>. 
             </p>
 
             <p>
