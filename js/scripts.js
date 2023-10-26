@@ -8,32 +8,19 @@ document.addEventListener("DOMContentLoaded", function() {
                 container.innerHTML = `
             <p>
             Elizabeth is a student of Computer Science at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>. She is a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, with Prof. Bhaskar Krishnamachari as her faculty advisor and mentor.
-            Her research focuses on reinforcement learning, particularly its application to scenarios for optimizing decision-making strategies under uncertainties. Her current work integrates stochastic epidemic modeling with reinforcement learning to address complexities in educational settings during epidemics. Other areas of interest also include the mathematics of intelligent autonomy, robotics, human-AI interaction, multi-agent systems, and AI tool design and development.
+            Her research focuses on reinforcement learning and its applications in guiding informed decision-making under uncertainties. Her current work integrates stochastic epidemic modeling with reinforcement learning to address operational problems in spaces during epidemics. Other areas of interest also include the mathematics of intelligent autonomy, robotics, human-AI interaction, multi-agent systems, and AI tool design and development.
 
             </p>
 
-<!--<p>-->
-<!--            Throughout her journey, she has facilitated various workshops and boot camps, focusing on areas such as robotics, programming, and embedded systems. Her roles in different communities have been diverse, from being a Taskforce Member at the Ministry of ICT, Innovation, and Youth Affairs in Kenya, an Artifact Evaluation Committee Member for SuperComputing 2021, and an Artifact Evaluation Board member for Journal of Systems Research. At USC, she serves as the Director of Civic Engagement for the Black Graduate Student Network and is an Organizing Committee member of the Ph.D. Women and Gender Minorities Computing Club.-->
-<!--</p>-->
+<p>
+            Throughout her academic journey, Elizabeth has organized and participated in various workshops and boot camps, emphasizing areas like robotics, programming, and embedded systems. She has been involved in numerous communities, holding positions such as a Taskforce Member at the Ministry of Information, Communication, and the Digital Economy in Kenya, an Artifact Evaluation Committee Member for SuperComputing 2021, and an Artifact Evaluation Board member for the Journal of Systems Research. Within the University of Southern California, she undertakes the role of Director of Civic Engagement for the Black Graduate Student Network and an  Organizing Committee member for the Ph.D. Women and Gender Minorities Computing Club. She is passionate about STEAM and education mentorship for the next generation, fostering knowledge and enthusiasm among individuals at any level.
 
-<!--<p>-->
-<!--            Elizabeth initiated and nurtured robotics clubs and played a crucial role in launching kids hacker camps, for which she was recognized in The 100: Tech Community Appreciation Awards. Her endeavor in these initiatives was paramount in fostering knowledge and passion in robotics and technology among the youth.-->
-<!--</p>-->
+</p>
 
-<!--<p>-->
-<!--            She has also mentored in various capacities, including at the Viterbi Summer Institute, the Women in Engineering program, the Viterbi Mentorship Program (at USC), IBM Bluehack, Tech Avenue at TUK, Foondi Workshops, and Women Who Mentor and Innovate in Africa (now Women in Tech KE).-->
-<!--</p>-->
-
-<!--<p>-->
-<!--            Elizabeth has been honored with several awards and recognitions, including the Grace Hopper Celebration Travel Grant, OSDI ’18 Diversity Grant, and Annenberg Fellowship. She was also acknowledged as the Outstanding Alumni Class of 2014 at the Technical University of Kenya.-->
-<!--</p>-->
-
-<!--<p>-->
-            <!--</p>-->
 
 <p>
- Before joining USC, she worked with IBM Research, Brave Venture Labs, and iHub Nairobi. She received her Bachelor of Engineering in Electrical and Electronics Engineering from the <a href="https://www.tukenya.ac.ke/" target="_blank">Technical University of Kenya</a>.
-Beyond academic and professional pursuits, Elizabeth loves live music, spoken word, poetry, fine arts, photography, and outdoor activities.
+ Before her Ph.D. journey at USC, Elizabeth worked with IBM Research, Brave Venture Labs, and iHub Nairobi. Her foundational academic background is a Bachelor of Engineering in Electrical and Electronics Engineering, which she obtained from the Technical University of Kenya. In her personal time, Elizabeth finds solace in music, spoken word, poetry, fine arts, and mural photography, and journaling. She also appreciates the serenity and challenges of outdoor activities.
+
 </p>
 
             `;
