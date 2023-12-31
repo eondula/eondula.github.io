@@ -165,6 +165,14 @@ a:hover, a:focus {
 .thought-entry p {
     margin-bottom: 20px;
 }
+.fab.fa-linkedin { color: #0077b5 !important; }
+.fab.fa-instagram { color: #C13584 !important; }
+.fab.fa-facebook { color: #3b5998 !important; }
+.fab.fa-twitter { color: #1DA1F2 !important; }
+.fab.fa-github { color: #333 !important; }
+.fas.fa-graduation-cap { color: #4285F4 !important; } /* Google Scholar doesn't have an official color, using Google's blue */
+.fab.fa-medium { color: black !important; }
+
 
 
 
