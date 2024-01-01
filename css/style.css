@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Inconsolata', monospace;
+    background-color: #F8F3EB;
+    font-size: large;
 }
 
 
@@ -77,14 +79,14 @@ body .bg-primary {
     background-color: var(--primary-color) !important;
 }
 
-/* Font Awesome Icons Custom Colors */
-.fa, .fab, .fas, .far {
-    color: var(--primary-color) !important;
-}
+/*!* Font Awesome Icons Custom Colors *!*/
+/*.fa, .fab, .fas, .far {*/
+/*    color: var(--primary-color) !important;*/
+/*}*/
 
-.fa:hover, .fab:hover, .fas:hover, .far:hover {
-    color: var(--primary-hover-color) !important; /* Slightly darker shade for hover state */
-}
+/*.fa:hover, .fab:hover, .fas:hover, .far:hover {*/
+/*    color: var(--primary-hover-color) !important; !* Slightly darker shade for hover state *!*/
+/*}*/
 h5 {
     color: #A9A9B3 !important;
 }
@@ -99,12 +101,13 @@ h5 a:hover {
 }
 
 a {
-    color: #760ADB; /* Primary color for normal state */
+    color: black; /* Primary color for normal state */
+    font-weight: bold;
     text-decoration: none; /* Optional: to remove the underline */
 }
 
 a:hover, a:focus {
-    color: #55408B; /* Slightly darker shade for hover/focus state */
+    color: black; /* Slightly darker shade for hover/focus state */
     text-decoration: underline; /* Optional: to add an underline on hover/focus */
 }
 #contentContainer p {
