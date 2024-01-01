@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 container.innerHTML = `
                 <div class="timeline">
                     <div class="timeline-item">
-                        <span class="date">20/2023</span>
+                        <span class="date">12/2023</span>
                         <p>Pre-print out for work on <em>Reinforcement Learning for Safe Occupancy Strategies in Educational Spaces during an Epidemic</em>  available on <a href="https://arxiv.org/abs/2312.15163" target="_blank">Arxiv</a> </p>
                     </div>
                       <div class="timeline-item">
