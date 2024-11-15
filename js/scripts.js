@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 container.innerHTML = `    
              
             <p>
-             I am a Ph.D Candidate at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>. I am  a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, and advised by <a href="https://ceng.usc.edu/~bkrishna/" target="_blank">Prof Bhaskar Krishnamachari</a>.
-            My research investigates how AI models can effectively navigate trade-offs in decision optimization within complex dynamic environments. I address this fundamental challenge through two key areas: reinforcement learning for epidemic control and language-based multi-agent systems for decision-making. I also organizes a weekly reinforcement learning reading group <a href="https://suitersrl.github.io/">SUITERS-RL</a>
+             I am a Ph.D Candidate at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a> and a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, and advised by <a href="https://ceng.usc.edu/~bkrishna/" target="_blank">Prof Bhaskar Krishnamachari</a>.
+            My research investigates how AI models can effectively navigate trade-offs in decision optimization within complex dynamic environments. I address this fundamental challenge through two key areas: reinforcement learning for epidemic control and language-based multi-agent systems for decision-making.</a>
             </p>
 
             `;
