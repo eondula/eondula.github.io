@@ -5,29 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
         var container = document.getElementById('contentContainer');
         switch (contentType) {
             case 'bio':
-                container.innerHTML = `
-            Elizabeth is an Electrical Engineer from the Technical University of Kenya and is currently a 
-            Ph.D. student of Computer Science at USC where she is advised and mentored by <a href="https://ceng.usc.edu/~bkrishna/">Prof. Bhaskar Krishnamachari</a>. She is a member of <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>. 
-            She co-organizes a bi-weekly reinforcement learning group, <a href="https://suitersrl.github.io/">SUITERS-RL</a>. 
-            Prior to academia, she had roles as a Software Engineer at <a href="https://research.ibm.com/labs/africa">IBM Research- Africa </a>, Head of Product Development at <a href="https://brave.careers/">Brave Venture Labs</a> 
-            and Co-lead of Hardware Research at <a href="https://ihub.co.ke/">iHub Nairobi </a>. 
-            Outside academia and engineering, she enjoys music, poetry, fine arts, photography, journaling, and outdoor activities
-            
-            
-            
-            
-<!--            <p>-->
-<!--             Elizabeth (Leez) is a Ph.D. student of Computer Science at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>. She is a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, with <a href="https://ceng.usc.edu/~bkrishna/" target="_blank">Prof Bhaskar Krishnamachari</a>.  as her faculty advisor and mentor.-->
-<!--            Her research interests are diverse, covering areas in Reinforcement Learning, Decision Science, Uncertainty Quantification, Public Health, Multi-Agent Systems, Evaluating AI Systems and Teaching Robotics. She also organizes a weekly reinforcement learning reading group <a href="https://suitersrl.github.io/">SUITERS-RL</a>-->
-<!--            </p>-->
-<!--&lt;!&ndash;            <p>&ndash;&gt;-->
-<!--&lt;!&ndash;            Throughout her academic journey, Elizabeth has organized and participated in various workshops and boot camps, emphasizing areas like robotics, programming, and embedded systems. She has been involved in numerous communities, holding positions such as a Taskforce Member at the Ministry of Information, Communication, and the Digital Economy in Kenya, an Artifact Evaluation Committee Member for SuperComputing 2021, and an Artifact Evaluation Board member for the Journal of Systems Research. Within the University of Southern California, she undertakes the role of Director of Civic Engagement for the Black Graduate Student Network and an  Organizing Committee member for the Ph.D. Women and Gender Minorities Computing Club. She is passionate about STEAM and education mentorship for the next generation, fostering knowledge and enthusiasm among individuals at any level.&ndash;&gt;-->
-<!--&lt;!&ndash;            </p>&ndash;&gt;-->
-<!--            <p>-->
-<!--             Prior to starting her Ph.D. journey at USC, Elizabeth worked as a <strong>Software Engineer</strong> at IBM Research (, <strong> Head of Product Development</strong> at Brave Venture Labs, and <strong> Co-lead of Hardware Research </strong> at iHub Nairobi. Her foundational academic background is a Bachelor of Engineering in Electrical and Electronics Engineering, which she obtained from the Technical University of Kenya. In her personal time, Elizabeth finds solace in music, spoken word, poetry, fine arts, and mural photography, and journaling. She also appreciates the serenity of outdoor activities.-->
-<!--            </p>-->
-            <p>Interested in mentorship experience, <a href="https://forms.gle/BVY7fowVhQAPnziu7">fill out this form</a></p>
-            <p>Contact (email):<strong >ondula@usc.edu</strong></p>
+                container.innerHTML = `    
+             
+            <p>
+             I am a Ph.D Candidate at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>. I am  a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, and advised by <a href="https://ceng.usc.edu/~bkrishna/" target="_blank">Prof Bhaskar Krishnamachari</a>.
+            My research investigates how AI models can effectively navigate trade-offs in decision optimization within complex dynamic environments. I address this fundamental challenge through two key areas: reinforcement learning for epidemic control and language-based multi-agent systems for decision-making. I also organizes a weekly reinforcement learning reading group <a href="https://suitersrl.github.io/">SUITERS-RL</a>
+            </p>
 
             `;
                 break;
