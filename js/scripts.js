@@ -8,69 +8,62 @@ document.addEventListener("DOMContentLoaded", function() {
                 container.innerHTML = `    
              
             <p>
-             I am a Ph.D Candidate at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a> and a member of the <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a>, and advised by <a href="https://ceng.usc.edu/~bkrishna/" target="_blank">Prof Bhaskar Krishnamachari</a>.
-            My research investigates how AI models can effectively navigate trade-offs in decision optimization within complex dynamic environments. I address this fundamental challenge through two key areas: reinforcement learning for epidemic control and language-based multi-agent systems for decision-making.</a>
-            </p>
+    I am an Assistant Professor of Computer Science at 
+    <a href="https://www.winthrop.edu/" target="_blank">Winthrop University</a>. 
+    I graduated with a Ph.D. in Computer Science from the University of Southern California, 
+    where I was a member of the 
+    <a href="https://anrg.usc.edu/" target="_blank">Autonomous Networks Research Group</a> 
+    advised by Prof. Bhaskar Krishnamachari</a>.
+    </p>
+    <p>
+    My research focuses on developing methodologies for evaluating and designing artificial intelligence systems that operate under uncertainty. 
+    I study how external factors such as stochastic environmental conditions and internal factors such as model variability shape AI decision-making, and I design evaluation frameworks that capture these complex, domain-specific effects. 
+    By integrating reinforcement learning, decision theory, and control-theoretic perspectives, my work examines how algorithmic choices, coordination structures, and information patterns influence emergent behaviors, and develops approaches for deploying AI in high-stakes physical and social environments that are reliable, safe, and interpretable.
+</p>
+
+</p>   
+
+<p>
+    My teaching emphasis lies in software engineering principles and applied computing. 
+    This Fall 2025, I am co-teaching 
+    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=475&subj_code_in=CSCI" target="_blank">CSCI 475: Software Engineering I</a></strong>, which covers structured systems analysis, requirements specification, data-flow diagrams, and object-oriented analysis; and 
+    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=245&subj_code_in=CSCI" target="_blank">CSCI 245: Front End Web Development</a></strong>, which focuses on responsive layouts, UI design, and modern web frameworks. 
+    Additionally, I am designing and instructing 
+    <strong>CSCI/DIFD 141: Introduction to Web Application Design</strong>, where students will learn fundamental web app structures and deployment processes.
+</p>
+
 
             `;
                 break;
 
-            case 'news':
+            case 'teaching':
                 container.innerHTML = `
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <span class="date">12/2023</span>
-                        <p>Pre-print out for work on <em>Reinforcement Learning for Safe Occupancy Strategies in Educational Spaces during an Epidemic</em>  available on <a href="https://arxiv.org/abs/2312.15163" target="_blank">Arxiv</a> </p>
-                    </div>
-                      <div class="timeline-item">
-                        <span class="date">10/2023</span>
-                        <p>Research work on <em>Sentimental Agents: Combining Sentiment Analysis and Non-Bayesian Updating for Cooperative Decision-making</em>  accepted at <a href="https://www.aamas2024-conference.auckland.ac.nz/" target="_blank">23rd International Conference on Autonomous Agents and Multi-Agent Systems</a> (AAMAS-24)</p>
-                    </div>
-                
-                    <div class="timeline-item">
-                        <span class="date">11/2023</span>
-                        <p>Interviewed during FOCUS FRIDAYS on <em>Power Differentials in Engineering in Academia: Existence, Impact, Awareness, and Mitigation</em> <a href="https://diversity.asee.org/">ASEE Diversity & Inclusion Initiatives</a></p>
-                    </div>
-          
-                    <div class="timeline-item">
-                        <span class="date">11/2023</span>
-                        <p>Invited Panelist for Women of Color in STEM at Mt. San Antonio College</p>
-                    </div>
-                     <div class="timeline-item">
-                        <span class="date">10/2023</span>
-                        <p>Research proposal on <em>Navigating Uncertainty in Epidemic Contexts</em>  accepted at <a href="https://ojs.aaai.org/index.php/AAAI/article/download/21649/21398" target="_blank">Association for the Advancement of Artificial Intelligence Doctoral Consortium</a> (AAAI-24)</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">05/2023</span>
-                        <p>STEM Bytes Talk: "Using Reinforcement Learning to Operate a Campus Safely During a Pandemic"</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">10/2021</span>
-                        <p>Abstract paper accepted at <a href="https://ojs.aaai.org/index.php/AAAI/article/download/21649/21398" target="_blank">Association for the Advancement of Artificial Intelligence</a> (AAAI-22)</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">05/2021</span>
-                        <p>A feature on going from intern, to IBMer to PhD. <a href="https://ibm-research.medium.com/from-interns-to-ibmers-to-phds-a-unique-approach-to-talent-in-africa-abfb071cb90f" target="_blank">Read more</a></p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">08/2020</span>
-                        <p>I joined the <a href="https://anrg.usc.edu/www/"></a> Autonomous Networks Research Group</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">11/2018</span>
-                        <p>Guest contributor, African Leadership University where I shared my work on Applications of IoT in Emerging Markets.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">09/2018</span>
-                        <p>Recognized as an Outstanding Alumni <a href="https://tukenya.ac.ke/sites/default/files/downloads/tunewsdec2018.pdf" target="_blank">Details</a></p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">08/2018</span>
-                        <p>Moved to Los Angeles, CA to start my Ph.D journey in Computer Science at University of Southern California. I received the Annenberg Fellowship.</p>
-                    </div>
-                </div>
-            `;
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="date">Fall 2025</span>
+                <p>
+                    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=475&subj_code_in=CSCI" target="_blank">
+                    CSCI 475: Software Engineering I</a></strong> — Co-teaching the course, covering structured systems analysis, requirements specification, object-oriented design, and collaborative software development practices.
+                </p>
+            </div>
+            <div class="timeline-item">
+                <span class="date">Fall 2025</span>
+                <p>
+                    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=141&subj_code_in=CSCI" target="_blank">
+                    CSCI/DIFD 141: Introduction to Web Application Design</a></strong> — Co-teaching the course, introducing fundamental concepts in web application structures, interface design, and deployment processes.
+                </p>
+            </div>
+            <div class="timeline-item">
+                <span class="date">Fall 2025</span>
+                <p>
+                    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=245&subj_code_in=CSCI" target="_blank">
+                    WEBD 245: Front End Web Development</a></strong> — Designing and teaching the course, focusing on responsive layouts, user experience, and modern front-end frameworks.
+                </p>
+            </div>
+        </div>
+    `;
                 break;
+
             case 'thoughts':
                 container.innerHTML = document.getElementById('thoughts-list').innerHTML;
                 break;
