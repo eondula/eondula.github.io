@@ -26,11 +26,12 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>
     My teaching emphasis lies in software engineering principles and applied computing. 
     This Fall 2025, I am co-teaching 
-    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=475&subj_code_in=CSCI" target="_blank">CSCI 475: Software Engineering I</a></strong>, which covers structured systems analysis, requirements specification, data-flow diagrams, and object-oriented analysis; and 
-    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=245&subj_code_in=CSCI" target="_blank">CSCI 245: Front End Web Development</a></strong>, which focuses on responsive layouts, UI design, and modern web frameworks. 
+    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=475&subj_code_in=CSCI" target="_blank">CSCI 475: Software Engineering I</a></strong>, which covers structured systems analysis, requirements specification, data-flow diagrams, object-oriented analysis, and project documentation, culminating in a team-based design project; and 
+    <strong>CSCI/DIFD 141: Introduction to Web Application Design</strong>, which introduces web application and digital information design concepts using HTML, CSS, JavaScript, and client-side programming fundamentals.  
     Additionally, I am designing and instructing 
-    <strong>CSCI/DIFD 141: Introduction to Web Application Design</strong>, where students will learn fundamental web app structures and deployment processes.
+    <strong><a href="https://ssb.winthrop.edu/prod/bwckctlg.p_disp_course_detail?cat_term_in=202480&crse_numb_in=245&subj_code_in=CSCI" target="_blank">CSCI 245: Front End Web Development</a></strong>, which focuses on responsive layouts, UI design, and modern web frameworks.
 </p>
+
 
 
             `;
