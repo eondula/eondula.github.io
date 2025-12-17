@@ -13,34 +13,6 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg" style=" padding-left: 15%; padding-right: 20%;">
-    <div class="container-fluid justify-content-center">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="bioBtn">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="teaching.html" id="teachingBtn">Teaching</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="research.html" id="thoughtsBtn">Research</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="tools.html" id="toolsBtn">AI Tools</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://suitersrl.github.io/">Reading Group</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="#" id="toolsBtn">Blog</a>-->
-<!--            </li>-->
-        </ul>
-    </div>
-</nav>
-
 
 <div class="container" style=" padding-left: 15%; padding-right: 15%; padding-top: 5%">
 
@@ -73,126 +45,29 @@
         </div>
     </div>
 
-    <!-- Menu -->
-
     <!-- Short Bio -->
     <div class="row mt-4">
         <div class="text-start" id="contentContainer">
+            <p>
+                Elizabeth Ondula is currently an Assistant Professor of Computer Science at Winthrop University.
+                She received her Ph.D. in Computer Science from the University of Southern California and Bachelor of Engineering in Electrical and Electronics Engineering from Technical University of Kenya.
+                Her research spans language models, reinforcement learning, and multi-agent systems, with a focus on safety, reliability,
+                and emergent behavior in complex physical and social environments. Her teaching emphasizes software engineering and
+                applied computing, including courses in software engineering, web application design and development
+                with a strong focus on hands-on system building and real-world engineering practices.
+            </p>
 
         </div>
     </div>
-<!--    <p>Connect with 😊</p>-->
-<!--    <a href="https://linkedin.com/in/elizabeth-ondula" target="_blank"><i class="fab fa-linkedin fa-lg me-3"></i></a>-->
-<!--    <a href="https://instagram.com/e.ondula" target="_blank"><i class="fab fa-instagram fa-lg me-3"></i></a>-->
-<!--    <a href="https://facebook.com/your_username" target="_blank"><i class="fab fa-facebook fa-lg me-3"></i></a>-->
-<!--    <a href="https://twitter.com/eondula" target="_blank"><i class="fab fa-twitter fa-lg me-3"></i></a>-->
-<!--    <a href="https://github.com/eondula" target="_blank"><i class="fab fa-github fa-lg me-3"></i></a>-->
-<!--    <a href="https://scholar.google.com/citations?user=QI91XeMAAAAJ&hl" target="_blank"><i class="fas fa-graduation-cap fa-lg me-3"></i></a>-->
-<!--    <a href="https://medium.com/@eondula" target="_blank"><i class="fab fa-medium fa-lg"></i></a>-->
 </div>
-<!-- Thoughts List -->
-<div id="thoughts-list" style="display: none;">
-    <div class="thought-entry">
-        <h4>
-             <b>Sustain, Invest, Stay, Cherish</b>
-        </h4>
-        <p><strong>Entry #001</strong> | <strong>Date: 23rd September 2023</strong></p>
-        <p>
-            “Sustain the friendships you have made even after your studies. Invest in them, stay close to them, and cherish them”
-            <a href="#" data-bs-toggle="modal" data-bs-target="#thoughtModal" style="text-decoration: underline; color: #760ADB;">Read More</a>
-            &nbsp;|&nbsp;
-            <a href="#" onclick="shareToTwitter();" style="color: #760ADB;"><i class="fas fa-share-alt"></i></a>
-        </p>
-    </div>
-    <!-- ... more entries as needed ... -->
-</div>
-
-<!-- Tools list -->
-<div id="tools-list" style="display: none;">
-    <div class="row">
-        <!-- First Tool Card -->
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">SafeCampus-RL</h5>
-                    <span class="badge bg-warning">In Progress</span>
-                    <p class="card-text mt-2">RL-based simulation tool for classroom occupancy during an epidemic.</p>
-                    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21649" class="text-primary" target="_blank">Paper</a>
-                    <a href="https://github.com/ANRGUSC/SafeCampus-RL" target="_blank"><i class="fab fa-github me-3"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Second Tool Card -->
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Classroom-MDP</h5>
-                    <span class="badge bg-success">Completed</span>
-                    <p class="card-text mt-2">Use of MDP to determine classroom policies for epidemic decisions.</p>
-<!--                    <a href="[Link to the paper for Tool 2]" class="text-primary" target="_blank">Read Paper</a>-->
-                    <a href="https://github.com/ANRGUSC/ClassroomMDP" target="_blank"><i class="fab fa-github me-3"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">SCOPE</h5>
-                    <span class="badge bg-warning">In progress</span>
-                    <p class="card-text mt-2">A visualization tool for a supply chain optimization model.</p>
-                    <!--                    <a href="[Link to the paper for Tool 2]" class="text-primary" target="_blank">Read Paper</a>-->
-                    <a href="https://github.com/ANRGUSC/ClassroomMDP" target="_blank"><i class="fab fa-github me-3"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<!-- Modal for Thought Entry 1 -->
-<div class="modal" id="thoughtModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 id="modalTitle" class="modal-title">Sustain, Invest, Stay, Cherish</h5>
-            </div>
-            <div class="modal-body">
-                <p id="modalDescription">
-                    I recently stumbled upon these words from my past, words
-                    I had shared upon being honored as an outstanding alumnus from the class of 2014.
-                    For those about to embark on their higher education journey—be it in a university, college,
-                    polytechnic, or community college—remember this: the leap from high school introduces you to
-                    ‘knowns’ and ‘unknowns’. I was fortunate to bond with amazing individuals during this phase,
-                    collaborating on studies, initiating projects, exploring varied career avenues, and
-                    experiencing moments that I hold dear to date.
-                    These relationships not only enriched my life with invaluable lessons but also granted me
-                    personal growth and the pure joy of being genuinely appreciated.
-                    There's so much more I could share on this, but I'll reserve those stories for another time.
-                    <!-- rest of the content -->
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 <!-- Footer -->
 <footer class="mt-5 text-center">
     <p>
-<!--        <a href="https://lillyclark.github.io/" target="_blank">Layout inspiration</a>.<br>-->
        Last updated August 2025.
     </p>
 </footer>
 
-
 <!-- Bootstrap JS (optional) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/scripts.js"></script>
 </body>
 </html>
